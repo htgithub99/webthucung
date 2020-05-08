@@ -1,0 +1,365 @@
+#content h5{
+    font-size: 15px;
+    font-weight: bold;
+}
+#content02,#content04{
+    padding-top: 50px;
+   
+    
+}
+#content03{
+    padding-top: 80px ;
+
+}
+
+/*Menu*/
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 350px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+h2,p{
+  font-family: "Helvetica Neue";
+  
+
+}
+h2{
+   font-weight: bold;
+  
+}
+a:hover{
+  padding-top: 1px;
+}
+
+#fixNav{
+  width: 100%;
+  height: 5%;
+  display: block;
+  position: fixed; /*Cho menu cố định 1 vị trí với top và left*/
+  top: 0; /*Nằm trên cùng*/
+  left: 0; /*Nằm sát bên trái*/
+  z-index: 100000; /*Hiển thị lớp trên cùng*/
+  background: black;
+  height: 60px
+}
+#fixNav ul{
+  float: right;
+  margin: 0;
+  padding: 0;
+  margin-right: -100px
+}
+#fixNav ul li{
+  margin-top:20px; 
+  list-style:none inside;
+  width: auto;
+  float: left;
+  line-height: 35px; /*Cho text canh giữa menu*/
+  color: #fff;
+  padding: 0;
+  margin-right:10px;
+  position: relative;
+}
+#fixNav ul li a{
+  text-transform: uppercase;
+  white-space: nowrap; /*Cho chữ trong menu không bị wrap*/
+  padding: 0 10px;
+  color: #fff;
+  display: block;
+  font-size: 0.8em;
+  text-decoration: none;
+}
+/*CSS Style cho Submenu*/
+#fixNav ul li ul {
+  position: absolute;
+  width: auto;
+  display: none;
+  background-color: #252525;
+  border-bottom: 3px solid #0082bb;
+  padding-left: 5px;
+}
+
+#fixNav ul li ul li{
+  display: block;
+  padding:0;
+  margin: 0;
+  float: none; /*Bỏ float cho li cấp thứ 2*/
+}
+/* Hover cho submenu */
+#fixNav ul li:hover {
+  /* Hover thì li sẽ đổi màu*/
+  background-color: #252525;
+}
+#fixNav ul li:hover ul{
+  /*Display ra submenu*/
+  display: block;
+}
+/*Không copy cái này, dùng tăng padding top bottom để demo cuộn*/
+.container p{
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.carousel-caption{
+  bottom: 50px;
+}
+.hover a:hover{
+	text-decoration: none;
+}
+#offer{
+    background-image: url(offer/banner\ 6.jpg);
+    color: white;
+    background-size:100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-top: 50px;
+}
+.search-box {  
+display: inline-block;  
+width: 100%;  
+border-radius: 3px;  
+padding: 4px 55px 4px 15px;  
+position: relative;  
+background: #fff;  
+border: 1px solid #ddd;  
+-webkit-transition: all 200ms ease-in-out;  
+-moz-transition: all 200ms ease-in-out;  
+transition: all 200ms ease-in-out;
+}
+ 
+.search-box.hovered, .search-box:hover, .search-box:active {  
+border: 1px solid #aaa;
+}
+ 
+.search-box input[type=text] { 
+ border: none;  
+box-shadow: none;  
+display: inline-block;  
+padding: 0;  
+background: transparent;
+}
+ 
+.search-box input[type=text]:hover, .search-box input[type=text]:focus, .search-box input[type=text]:active {  
+box-shadow: none;
+}
+ 
+.search-box .search-btn {  
+position: absolute;  
+right: 2px;  
+top: 2px;  
+color: #aaa;  
+border-radius: 3px;  
+font-size: 21px;  
+padding: 5px 10px 1px;  
+-webkit-transition: all 200ms ease-in-out;  
+-moz-transition: all 200ms ease-in-out;  
+transition: all 200ms ease-in-out;
+}
+ 
+.search-box .search-btn:hover {  
+color: #fff;  
+background-color: #8FBE00;
+}
+h4 a:hover {
+    text-decoration: none;
+
+}
+h5 a:hover {
+    text-decoration: none;
+
+}
+@font-face {
+    font-family: 'myFont';
+    src: url('Fontbox/OTF/HelveticaNeue.otf');
+}
+
+.addFont {
+    font-family: 'myFont';
+}
+/*@font-face {
+    font-family: 'mmyFont';
+    src: url('Fontbox/OTF/HelveticaNeue-Medium.otf');
+}
+
+.aaddFont {
+    font-family: 'mmyFont';
+}*/
+/*@font-face {
+    font-family: 'myFontbanner';
+    src: url('Fontbox/OTF/');
+}
+
+.addFont {
+    font-family: 'myFont';
+}*/
+h6{
+  margin-left: 7rem;
+}
+h6 a{
+  color: #ECECEC;
+  margin-left: 2rem;
+}
+h6 a:hover{
+  text-decoration: none;
+}
+
+#footer{
+    background: #222;
+    color: aliceblue;
+}
+#footer ul li{
+    list-style: none;
+    margin-top: 5px;
+}
+#footer p{
+    padding:  50px 0 5px 40px;
+}
+#search form{
+    padding-left: 40px ;
+    
+}
+#search input{
+    height: 40px;
+    width:70%;
+    border: 0px;
+    background:rgb(53, 52, 52);
+  border-radius: 20px 0px 0px 20px;}  
+#search button{
+    height: 40px;
+    border: 1px solid rgb(53, 52, 52);
+    background:rgb(53, 52, 52);
+  border-radius: 0 20px 20px 0;}  
+#folow ul li{
+    float: left;
+    margin-left: 20px;
+}
+.containerr{
+  margin-left: 30rem;
+}
+.containerr p{
+  text-align: left;
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+.containerr h6{
+  margin-top: 8rem;
+  text-align: left;
+  padding: 1rem;
+  margin-left: -0.1rem;
+}
+.d-flex {
+    display: -webkit-box!important;
+    display: flex!important;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+.text-center {
+    text-align: center!important;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+.font-size-h1 {
+    font-size: 2.75rem!important;
+}
+.text-primary {
+    color: #ff6f61!important;
+}
+.font-weight-bolder {
+    font-weight: 600!important;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+.heading-xxs {
+    font-size: .8125rem;
+    font-weight: 500;
+    letter-spacing: .02em;
+    text-transform: uppercase;
+}
+.text-muted {
+    color: #767676!important;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+@media (min-width: 768px)
+.pl-md-4, .px-md-4 {
+    padding-left: 1rem!important;
+}
+@media (min-width: 768px)
+.pr-md-4, .px-md-4 {
+    padding-right: 1rem!important;
+}
+.pl-1, .px-1 {
+    padding-left: 3rem!important;
+}
+.pr-1, .px-1 {
+    padding-right: 3rem!important;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+.font-size-h2 {
+    font-size: 2.25rem!important;
+}
+
+.text-primary {
+    color: #ff6f61!important;
+}
+.font-weight-bolder {
+    font-weight: 600!important;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+#footerr{
+    background-image: url(offer/banner\ 5.jpg);
+    background-size:100%;
+    background-repeat: no-repeat;
+}
+#footerr ul li{
+    list-style: none;
+    margin-top: 5px;
+}
+.body02 ul li{
+  list-style-type: none;
+}
+.body02 a{
+  color: black;
+  font-size: 15px;
+}
+.body02 a:hover{
+  color: black;
+  text-decoration: none;
+}
